@@ -2,6 +2,7 @@ package config
 
 type folder struct {
 	info
+	Children []Item
 }
 
 func (f *folder) Run() error {
